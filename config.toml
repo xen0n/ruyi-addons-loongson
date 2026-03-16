@@ -1,0 +1,14 @@
+ruyi-repo = "v1"
+
+[repo]
+doc_uri = "https://github.com/xen0n/test"
+id = "test"
+name = "xen0n test repository"
+
+# Mirrors of third-party software
+
+[[mirrors]]
+id = "loongson-build-tools"
+urls = [
+  "https://github.com/loongson/build-tools/releases/download/",
+]
