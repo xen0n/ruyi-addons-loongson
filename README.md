@@ -23,20 +23,22 @@ ruyi install toolchain/loongson-build-tools-glibc
 ruyi venv -t loongson-build-tools-glibc la64v1.0 /tmp/venv-foo
 ```
 
-激活虚拟环境：
+激活、使用、退出虚拟环境：
 
 ```sh
 source /tmp/venv-foo/bin/ruyi-activate
 
 # 您现在可以用龙芯官方工具链开始构建了！
 loongarch64-unknown-linux-gnu-gcc --version
+
+ruyi-deactivate
 ```
 
-玩腻了，退出并删除虚拟环境，恢复原状：
+玩腻了，删除虚拟环境，恢复原状：
 
 ```sh
-ruyi-deactivate  # 如果您还在虚拟环境里
-rm -rf /tmp/venv-foo  # 务必小心谨慎！
+rm -rf /tmp/venv-foo  # !!! 务必小心谨慎 !!!
+
 ruyi uninstall loongson-build-tools-glibc
 ruyi repo remove --purge test-loongson
 ```
