@@ -1,0 +1,29 @@
+[[profiles]]
+id = "manual"
+march = ""
+mabi = ""
+
+[[profiles]]
+id = "generic"
+march = "loongarch64"
+mabi = "lp64d"
+
+[[profiles]]
+id = "la64v1.0"
+march = "la64v1.0"
+mabi = "lp64d"
+
+[[profiles]]
+id = "la64v1.1"
+march = "la64v1.1"
+mabi = "lp64d"
+
+[[profiles]]
+id = "la464"
+march = "la464"
+mabi = "lp64d"
+
+[[profiles]]
+id = "la664"
+march = "la664"
+mabi = "lp64d"

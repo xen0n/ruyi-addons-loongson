@@ -1,0 +1,2 @@
+[generic.qemu-linux-user]
+env = { QEMU_CPU = "la464" }
