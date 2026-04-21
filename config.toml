@@ -1,9 +1,9 @@
 ruyi-repo = "v1"
 
 [repo]
-doc_uri = "https://github.com/xen0n/test"
-id = "test"
-name = "xen0n test repository"
+doc_uri = "https://github.com/xen0n/ruyi-addons-loongson"
+id = "test-loongson"
+name = "TESTING-ONLY add-on ruyi repository for Loongson/LoongArch support"
 
 # Mirrors of third-party software
 
